@@ -10,7 +10,7 @@ set(whisper-protocol_CMAKE_ARGS -DCMAKE_INSTALL_PREFIX=${whisper-protocol_INSTAL
 
 ExternalProject_Add(whisper-protocol-project
   PREFIX ${whisper-protocol_PREFIX}
-  GIT_REPOSITORY https://github.com/AlexsJones/whisper-protocol.git
+  GIT_REPOSITORY https://github.com/draganglumac/whisper-protocol.git
   INSTALL_DIR ${whisper-protocol_INSTALL_DIR}
   CMAKE_ARGS ${whisper-protocol_CMAKE_ARGS}
   BUILD_COMMAND make
